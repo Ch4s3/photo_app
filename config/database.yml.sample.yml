@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  database: photo_app_dev_db
+
+
+test: &test
+  adapter: postgresql
+  database: photo_app_test_db
+
+
+production:
+  adapter: postgresql
+  database: photo_app_prod_db
+
+
+cucumber:
+  <<: *test
