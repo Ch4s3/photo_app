@@ -1,11 +1,10 @@
 %body
-
-  #container
+  #container.top
     %nav
-      %ul
-        %li
+      %tr
+        %td
           = link_to 'Sign up', new_user_path
-        %li
-          = link_to 'Come aboard', new_session_path
-
-  %h1 Photo App!
+        %td
+          = link_to 'Come aboard', login_path
+.container_12
+  .center_column.grid_6.push_3

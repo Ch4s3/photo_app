@@ -10,4 +10,6 @@
  *
  *= require_self
  *= require_tree .
+ *= _fluid_grid
+ *= main
  */
